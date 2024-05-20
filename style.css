@@ -1,0 +1,148 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #e6e5e5;
+    padding: 60px;
+}
+
+.header{
+    display: flex;
+    gap: 18px;
+}
+.header .search-bar{
+display: flex;
+width: 377px;
+height: 24px;
+padding: 16px;
+justify-content: space-between;
+border-radius: 8px;
+background: #FFF;
+color: #777F90;
+}
+
+.header .modules{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.modules-header{
+    display: flex;
+    width: 161px;
+    height: 24px;
+    padding: 16px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #ffffff;
+color: #797d86;
+}
+
+
+.drop2{
+background:#4440F3;
+}
+.drop2 span{
+display: flex;
+gap: 8px;
+}
+
+
+.role-names{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:590px;
+}
+.role-namesleft{
+display: flex;
+align-items: center;
+color: #757A87;
+gap: 184px;
+margin-left: 30px;
+}
+.role-namesright{
+width: 15%;
+display: flex;
+align-items: center;
+color: #757A87;
+position: relative;
+margin-right: 285px;
+}
+.role{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 15px;
+    
+}
+.role-info{
+width: 70%;
+height: 100%;
+display: flex;
+align-items: center;
+gap: 95px;
+padding: 10px;
+}
+
+.role-action{
+width: 30%;
+height: 100%; 
+display: flex;
+align-items: center;
+gap: 180px;
+
+}
+
+.role-info span{
+    color: #0D358C;
+}
+
+.role-info p{
+color: #555E72;
+}
+.role-action button{
+display: flex;
+padding: 4px 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+background: #EFF4FF;
+border: none;
+color: #102145;
+}
+
+.new-role-form {
+    display: flex;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.new-role-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+fieldset {
+    display: flex;
+    padding: 5px 14px;
+    border-radius: 8px;
+    border: 1px solid #9B9BA8;
+    background: #FFF;
+}
+
+.buttons button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: #4440F3;
+    color: #FFF;
+
+}
+

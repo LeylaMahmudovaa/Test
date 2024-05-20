@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-bar">
+                <span>Axtarış</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.91314 10.8263C8.6266 10.8263 10.8263 8.6266 10.8263 5.91314C10.8263 3.19969 8.6266 1 5.91314 1C3.19969 1 1 3.19969 1 5.91314C1 8.6266 3.19969 10.8263 5.91314 10.8263Z" stroke="#777F90" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.7184 9.7191L12.8065 12.8072" stroke="#777F90" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+            </div>
+            <div class="modules">
+                <div class="modules-header">
+                    <span>Modullar</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 6L8 10L12 6" stroke="#555E71" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </div>
+                <div class="dropDown">
+                <div class="drop2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10.8327 5.83366H9.16602V9.16699H5.83268V10.8337H9.16602V14.167H10.8327V10.8337H14.166V9.16699H10.8327V5.83366ZM9.99935 1.66699C5.39935 1.66699 1.66602 5.40033 1.66602 10.0003C1.66602 14.6003 5.39935 18.3337 9.99935 18.3337C14.5993 18.3337 18.3327 14.6003 18.3327 10.0003C18.3327 5.40033 14.5993 1.66699 9.99935 1.66699ZM9.99935 16.667C6.32435 16.667 3.33268 13.6753 3.33268 10.0003C3.33268 6.32533 6.32435 3.33366 9.99935 3.33366C13.6743 3.33366 16.666 6.32533 16.666 10.0003C16.666 13.6753 13.6743 16.667 9.99935 16.667Z" fill="white"/>
+                      </svg>
+                      Yeni rol
+                    </span>
+                </div>
+                <div class="new-role-form">
+                    <form action="">
+                        <fieldset>
+                            <legend>Adı</legend>
+                            <input type="text" placeholder="Rəhbər">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Haqqında</legend>
+                            <input type="text" placeholder="Yeni rol yaradılması">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Kateqoriya</legend>
+                            <select>
+                                <option value="category1">Secin</option>
+                                <option value="category2">Isci 2</option>
+                                <option value="category3">Isci 3</option>
+                            </select>
+                        </fieldset>
+                        <div class="buttons">
+                            <button type="button" class="cancel">İmtina et</button>
+                            <button type="submit" class="save">Yadda saxla</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="system-roles">
+            <span>Sistem rolları</span>
+        </div>
+        <div class="role-names">
+            <div class="role-namesleft">
+                <span>Ad</span>
+                <span>Haqqında</span>
+            </div>
+            <div class="role-namesright">
+                <span>Modul</span>
+            </div>
+        </div>
+        <div class="role">
+            <div class="role-info">
+                <span>Admin</span>
+                <p>Lorem ipsum dolor somit  mit lor dordolor somit  mit lor do...</p>
+            </div>
+            <div class="role-action">
+                <button>Modullar  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M3 4.5L6 7.5L9 4.5" stroke="#102145" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></button>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path opacity="0.4" d="M12.995 12.2148H8.72432C8.30764 12.2148 7.96875 12.5591 7.96875 12.9824C7.96875 13.4065 8.30764 13.7499 8.72432 13.7499H12.995C13.4117 13.7499 13.7506 13.4065 13.7506 12.9824C13.7506 12.5591 13.4117 12.2148 12.995 12.2148Z" fill="#838B9D"/>
+                    <path d="M5.73177 3.17795L9.77866 6.44802C9.87628 6.52622 9.89295 6.66973 9.81676 6.7697L5.01906 13.0212C4.71746 13.4074 4.27301 13.6259 3.79681 13.6339L1.17772 13.6662C1.03804 13.6678 0.915811 13.5711 0.884064 13.4324L0.288816 10.8444C0.18564 10.3687 0.288816 9.87691 0.590409 9.49798L5.41192 3.21665C5.4897 3.11587 5.63335 3.09813 5.73177 3.17795Z" fill="#838B9D"/>
+                    <path opacity="0.4" d="M11.59 4.49908L10.8098 5.473C10.7312 5.57217 10.59 5.5883 10.4923 5.50928C9.54391 4.74175 7.1153 2.77214 6.44148 2.22632C6.34306 2.14569 6.32957 2.00219 6.40893 1.90221L7.16133 0.967793C7.84388 0.0890025 9.03438 0.00837955 9.99471 0.774298L11.0979 1.65309C11.5503 2.00783 11.8519 2.47544 11.9551 2.96724C12.0741 3.50822 11.9471 4.03953 11.59 4.49908Z" fill="#838B9D"/>
+                  </svg>
+            </div>
+        </div>
+        <div class="role">
+            <div class="role-info">
+                <span>HR</span>
+                <p>Lorem ipsum dolor somit  mit lor dordolor somit  mit lor do...</p>
+            </div>
+            <div class="role-action">
+                <button>Modullar  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M3 4.5L6 7.5L9 4.5" stroke="#102145" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></button>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path opacity="0.4" d="M12.995 12.2148H8.72432C8.30764 12.2148 7.96875 12.5591 7.96875 12.9824C7.96875 13.4065 8.30764 13.7499 8.72432 13.7499H12.995C13.4117 13.7499 13.7506 13.4065 13.7506 12.9824C13.7506 12.5591 13.4117 12.2148 12.995 12.2148Z" fill="#838B9D"/>
+                    <path d="M5.73177 3.17795L9.77866 6.44802C9.87628 6.52622 9.89295 6.66973 9.81676 6.7697L5.01906 13.0212C4.71746 13.4074 4.27301 13.6259 3.79681 13.6339L1.17772 13.6662C1.03804 13.6678 0.915811 13.5711 0.884064 13.4324L0.288816 10.8444C0.18564 10.3687 0.288816 9.87691 0.590409 9.49798L5.41192 3.21665C5.4897 3.11587 5.63335 3.09813 5.73177 3.17795Z" fill="#838B9D"/>
+                    <path opacity="0.4" d="M11.59 4.49908L10.8098 5.473C10.7312 5.57217 10.59 5.5883 10.4923 5.50928C9.54391 4.74175 7.1153 2.77214 6.44148 2.22632C6.34306 2.14569 6.32957 2.00219 6.40893 1.90221L7.16133 0.967793C7.84388 0.0890025 9.03438 0.00837955 9.99471 0.774298L11.0979 1.65309C11.5503 2.00783 11.8519 2.47544 11.9551 2.96724C12.0741 3.50822 11.9471 4.03953 11.59 4.49908Z" fill="#838B9D"/>
+                  </svg>
+            </div>
+        </div>
+        <div class="role">
+            <div class="role-info">
+                <span>İstifadəçi</span>
+                <p>Lorem ipsum dolor somit  mit lor dordolor somit  mit lor do...</p>
+            </div>
+            <div class="role-action">
+                <button>Modullar  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M3 4.5L6 7.5L9 4.5" stroke="#102145" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></button>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path opacity="0.4" d="M12.995 12.2148H8.72432C8.30764 12.2148 7.96875 12.5591 7.96875 12.9824C7.96875 13.4065 8.30764 13.7499 8.72432 13.7499H12.995C13.4117 13.7499 13.7506 13.4065 13.7506 12.9824C13.7506 12.5591 13.4117 12.2148 12.995 12.2148Z" fill="#838B9D"/>
+                    <path d="M5.73177 3.17795L9.77866 6.44802C9.87628 6.52622 9.89295 6.66973 9.81676 6.7697L5.01906 13.0212C4.71746 13.4074 4.27301 13.6259 3.79681 13.6339L1.17772 13.6662C1.03804 13.6678 0.915811 13.5711 0.884064 13.4324L0.288816 10.8444C0.18564 10.3687 0.288816 9.87691 0.590409 9.49798L5.41192 3.21665C5.4897 3.11587 5.63335 3.09813 5.73177 3.17795Z" fill="#838B9D"/>
+                    <path opacity="0.4" d="M11.59 4.49908L10.8098 5.473C10.7312 5.57217 10.59 5.5883 10.4923 5.50928C9.54391 4.74175 7.1153 2.77214 6.44148 2.22632C6.34306 2.14569 6.32957 2.00219 6.40893 1.90221L7.16133 0.967793C7.84388 0.0890025 9.03438 0.00837955 9.99471 0.774298L11.0979 1.65309C11.5503 2.00783 11.8519 2.47544 11.9551 2.96724C12.0741 3.50822 11.9471 4.03953 11.59 4.49908Z" fill="#838B9D"/>
+                  </svg>
+            </div>
+        </div>
+        <div class="system-roles">
+            <span>Digər rollar </span> <p>(0)</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
